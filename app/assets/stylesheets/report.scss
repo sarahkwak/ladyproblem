@@ -59,19 +59,20 @@ main{
 	margin-left: 67%;
 }
 
+.user-grid{
+	display: flex;
+	margin: 20px;
+}
 
+.user-grid .user{
+	margin:25px;
+}
 
 .users-content {
-
 	padding: 50px;
-    margin: 30px;
 }
 
-.user{
-	width: 30%;
-	float: left;
-	padding: 15px;
-}
+	
 
 .survey{
 	padding: 40px;

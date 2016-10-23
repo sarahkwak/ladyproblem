@@ -83,17 +83,16 @@
 		<div class="row users">
 			<div class="users-content">
 				<h2>Meet some of our mentors here to help you</h2>
-				<%@users.each do |u|%>
-			
-				
-				<div class="user">
-					<img class="img-circle" src="<%= u.picture%>"/></br>
-                    <h4><%= u.nick_name %></h4>
-                    <p><%= u.experties %></p>
+				<div class="container user-grid">
+					<%@users.each do |u|%>
+					<div class="user">
+						<img class="img-circle" src="<%= u.picture%>"/></br>
+	                    <h4><%= u.nick_name %></h4>
+	                    <p><%= u.experties %></p>
 
-                </div>
-                <% end %>
-				
+	                </div>
+	                <% end %>
+				</div>	
 			</div>
 			
 			
