@@ -4,11 +4,11 @@
 
 main{
 	font-family: 'Merriweather', serif;
+	text-align: center;
 }
 
 .header{
 	margin: 50px auto;
-	text-align: center;
 	font-size: 50px;
 }
 
@@ -21,7 +21,6 @@ main{
 }
 
 .descrip-content{
-	text-align: center;
 	padding: 75px;
 }
 
@@ -31,12 +30,20 @@ main{
 }
 
 .form-content{
-	text-align: center;
 	padding: 50px 250px;
 }
+
 .oneline {
 	width: 100%;
 	font-size: 24px;
 	display: inline;
 	margin-left: 67%;
+
+
+.users{
+	background-color: #b3b3cc;
+}
+
+.users-content{
+	padding: 50px;
 }
