@@ -8,8 +8,11 @@ main{
 }
 
 .header{
-	margin: 50px auto;
+	margin: 0px auto;
+	padding-top: 50px;
 	font-size: 50px;
+	background-color: rgb(149, 151, 120);
+	color:black;
 }
 
 .header p{
@@ -17,11 +20,11 @@ main{
 }
 
 .logo{
-	width: 10%;
+	width: 5%;
 }
 
 .descrip{
-	background-color: #b3b3cc;
+	background-color: rgb(149, 151, 120);
 }
 
 .descrip-content{
@@ -39,7 +42,7 @@ main{
 
 .users{
 
-	background-color: #b3b3cc;
+	background-color: rgb(149, 151, 120);
 }
 
 .users h2{
@@ -48,7 +51,7 @@ main{
 
 .users-content{
 	text-align: center;
-
+}
 .oneline {
 	width: 100%;
 	font-size: 24px;
@@ -90,4 +93,15 @@ main{
 h1{
 	border-top: solid 1px;
     padding-top: 35px;
+}
+
+.header-image{
+	width:70%;
+}
+
+.background-img{
+	background:url("https://images.unsplash.com/uploads/141172692104151d94dd4/4f900e54?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=befb5c3fe660e93f9a21c9fffc3cbd49");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 700px;
 }
