@@ -15,4 +15,8 @@ class ReportController < ApplicationController
 
     render json: response
   end
+
+  def form
+
+  end
 end
