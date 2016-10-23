@@ -5,8 +5,6 @@ class ReportController < ApplicationController
     age = query[:parameters]['age']
     # weather = Weather.weather_for_city city
     # weather_text = build_weather_text weather
-  	p "X"*40
-  	p age
     render json: response
   end
 
@@ -14,4 +12,7 @@ class ReportController < ApplicationController
   	 @report = Report.new(params[:report])
   end
 
+  def form
+
+  end
 end

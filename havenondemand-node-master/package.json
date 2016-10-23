@@ -1,0 +1,19 @@
+{
+  "name": "havenondemand",
+  "version": "1.2.3",
+  "description": "Official Haven OnDemand Node.js client",
+  "main": "index.js",
+  "dependencies": {
+    "needle": "^0.7.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Haven OnDemand",
+  "contributors": [
+    "Tyler Nappy <tyler.nappy@hpe.com>",
+    "Martin Zerbib"
+  ],
+  "license": "MIT"
+}
