@@ -8,12 +8,9 @@ class ReportController < ApplicationController
     render json: response
   end
 
+
   def create
   	 @report = Report.new(params[:report])
-  end
-
-  def form
-
   end
 
   def index

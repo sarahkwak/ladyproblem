@@ -1,3 +1,36 @@
 // Place all the styles related to the Report controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+main{
+	font-family: 'Merriweather', serif;
+}
+
+.header{
+	margin: 50px auto;
+	text-align: center;
+	font-size: 50px;
+}
+
+.header p{
+	padding:30px;
+}
+
+.descrip{
+	background-color: #b3b3cc;
+}
+
+.descrip-content{
+	text-align: center;
+	padding: 75px;
+}
+
+.icons i{
+	font-size:5.5em;
+	margin: 25px;
+}
+
+.form-content{
+	text-align: center;
+	padding: 50px 250px;
+}
