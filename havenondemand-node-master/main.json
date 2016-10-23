@@ -60,5 +60,25 @@
          "name": "class",
          "type": "STRING"
       }
+      {
+         "name": "lower class level",
+         "type": "STRING"
+      },
+      {
+         "name": "afraid of supervisor",
+         "type": "STRING"
+      },
+      {
+         "name": "gender inequality",
+         "type": "STRING"
+      },
+      {
+         "name": "multiple harrshment",
+         "type": "STRING"
+      },
+      {
+         "name": "lower wages",
+         "type": "STRING"
+      },
    ]
 }
