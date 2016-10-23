@@ -16,6 +16,10 @@ main{
 	padding:30px;
 }
 
+.logo{
+	width: 10%;
+}
+
 .descrip{
 	background-color: #b3b3cc;
 }
@@ -34,9 +38,44 @@ main{
 }
 
 .users{
+
 	background-color: #b3b3cc;
 }
 
+.users h2{
+	padding-bottom: 40px;
+}
+
 .users-content{
+	text-align: center;
 	padding: 50px;
+    margin: 30px;
+}
+
+.user{
+	width: 30%;
+	float: left;
+	padding: 15px;
+}
+
+.survey{
+	padding: 40px;
+}
+
+.survey img{
+	width:30%;
+	float: left;
+}
+
+.survey p{
+	float: left;
+	width: 50%;
+	margin: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+
+h1{
+	border-top: solid 1px;
+    padding-top: 35px;
 }

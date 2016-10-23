@@ -20,13 +20,17 @@
 	<%= render 'users/shared/links' %>
 	<main>
 		<div class="row header">
-			<p>Lady Problems</p>
-			<img class="iceberg img-circle" src="https://s-media-cache-ak0.pinimg.com/736x/a0/ac/24/a0ac240c3481b8aeaf39a8090a3d8290.jpg"/>
+			<p><img class="logo" src="http://downloadicons.net/sites/default/files/hold-it-in-your-hand-on--heart-icon-85655.png"/> Here 4 You</p>
+			<img src="https://images.unsplash.com/uploads/141172692104151d94dd4/4f900e54?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=befb5c3fe660e93f9a21c9fffc3cbd49"/>
 		</div>
 		<div class="row descrip">
 			<div class="descrip-content">
-				<h3>Tell us about your issue through many different channels</h3>
-				<p>stats here</p>
+				<div class="row survey">
+					<img src="http://www.dfwlaborlawyer.com/wp-content/themes/atkerson-responsive-gall/images/what-to-do.jpg"/>
+					<p>"Out of 2,235 women who said they’ve experienced workplace sexual harassment, 29 percent reported the issue while 71 percent did not. According to the survey, the field with the highest levels of reported sexual harassment is food and service hospitality."<br />
+					<a href="http://www.huffingtonpost.com/2015/02/19/1-in-3-women-sexually-harassed-work-cosmopolitan_n_6713814.html">Read more on article here</a></p>
+				</div>
+				<h1><b>Tell us about your issue through many different channels</b></h1>
 				<div class="icons">
 					<i class="fa fa-slack" aria-hidden="true"></i>
 					<i class="fa fa-facebook" aria-hidden="true"></i>
@@ -78,11 +82,21 @@
 		</div>
 		<div class="row users">
 			<div class="users-content">
+				<h2>Meet some of our mentors here to help you</h2>
 				<%@users.each do |u|%>
-				<%= u.nick_name %>
-				<%= u.nick_name %>
-				<% end %>
+			
+				
+				<div class="user">
+					<img class="img-circle" src="<%= u.picture%>"/></br>
+                    <h4><%= u.nick_name %></h4>
+                    <p><%= u.experties %></p>
+
+                </div>
+                <% end %>
+				
 			</div>
+			
+			
 		</div>
 	</main>
 </body>
