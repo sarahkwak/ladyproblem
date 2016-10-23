@@ -1,0 +1,64 @@
+{
+   fields: [
+      {
+         "name": "sexually assaulted",
+         "type": "STRING"
+      },
+      {
+         "name": "work class",
+         "type": "STRING"
+      },
+     {
+         "name": "sexual harrashment",
+         "type": "STRING"
+      },
+     {
+         "name": "education",
+         "type": "STRING"
+      },
+     {
+         "name": "low class level",
+         "type": "STRING"
+      },
+      {
+         "name": "male dominated field",
+         "type": "STRING"
+      },
+     {
+         "name": "occupation",
+         "type": "STRING"
+      },
+     {
+         "name": "relationship",
+         "type": "STRING"
+      },
+     {
+         "name": "race",
+         "type": "STRING"
+      },
+     {
+         "name": "sex",
+         "type": "STRING"
+      },
+     {
+         "name": "female earn less",
+         "type": "STRING"
+      },
+     {
+         "name": "capital-loss",
+         "type": "NUMERIC"
+      },
+      {
+         "name": "hours-per-week",
+         "type": "NUMERIC"
+      },
+     {
+         "name": "native-country",
+         "type": "STRING"
+      },
+     {
+         "name": "class",
+         "type": "STRING"
+      }
+   ]
+}
