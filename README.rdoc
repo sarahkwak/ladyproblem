@@ -12,6 +12,8 @@ Technology we cover:
 
 * Api.ai slackbot integration
 
+This video is real time talk with slackbot. Slackbot will respond exactly we programmed. 
+
 https://github.com/sarahkwak/ladyproblem/blob/master/app/assets/images/hereforyou.gif
 
 * Fully functioned authentication
@@ -19,5 +21,6 @@ https://github.com/sarahkwak/ladyproblem/blob/master/app/assets/images/hereforyo
 * PostgreSQL 
 
 * ngrok - Secure tunnels to localhost
+  ~/downloads/ngrok http 7000
+  
 
-<tt>rake doc:app</tt>.
