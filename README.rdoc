@@ -12,7 +12,7 @@ Technology we cover:
 
 * Api.ai slackbot integration
 
-https://github.com/sarahkwak/ladyproblem/blob/master/app/assets/images/salckbot.png
+https://github.com/sarahkwak/ladyproblem/blob/master/app/assets/images/hereforyou.gif
 
 * Fully functioned authentication
 
