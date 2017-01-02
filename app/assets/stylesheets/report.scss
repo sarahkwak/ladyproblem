@@ -106,3 +106,23 @@ h1{
 	background-repeat: no-repeat;
 	height: 700px;
 }
+footer {
+	p{
+		text-align: right;
+		padding-right: 2%;
+		font-size: 1.4em;
+	}
+	.bottom-line {
+		padding-bottom: 2%;
+	}
+	.first-line{
+		padding-top: 2%;
+	}
+	background-color: #a3a3c2;
+}
+p{
+	a:hover {
+		text-decoration: none;
+		color: pink;
+	}
+} 
