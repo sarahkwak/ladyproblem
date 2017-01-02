@@ -1,0 +1,168 @@
+/* line 5, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+main {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+/* line 10, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.header {
+  margin: 0px auto;
+  padding-top: 50px;
+  font-size: 50px;
+  background-color: #959778;
+  color: black;
+}
+
+/* line 18, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.header p {
+  padding: 30px;
+}
+
+/* line 22, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.logo {
+  width: 5%;
+}
+
+/* line 26, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.descrip {
+  background-color: #959778;
+}
+
+/* line 30, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.descrip-content {
+  padding: 75px;
+}
+
+/* line 34, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.icons i {
+  font-size: 5.5em;
+  margin: 25px;
+}
+
+/* line 39, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.form-content {
+  padding: 50px 250px;
+}
+
+/* line 43, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.users {
+  background-color: #959778;
+}
+
+/* line 48, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.users h2 {
+  padding-bottom: 40px;
+}
+
+/* line 52, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.users-content {
+  text-align: center;
+}
+
+/* line 55, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.oneline {
+  width: 100%;
+  font-size: 24px;
+  display: inline;
+  margin-left: 67%;
+}
+
+/* line 62, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.user-grid {
+  display: flex;
+  margin: 20px;
+}
+
+/* line 67, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.user-grid .user {
+  margin: 25px;
+}
+
+/* line 71, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.users-content {
+  padding: 50px;
+}
+
+/* line 77, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.survey {
+  padding: 40px;
+}
+
+/* line 81, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.survey img {
+  width: 30%;
+  float: left;
+}
+
+/* line 86, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.survey p {
+  float: left;
+  width: 50%;
+  margin: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* line 94, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+h1 {
+  border-top: solid 1px;
+  padding-top: 35px;
+}
+
+/* line 99, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.header-image {
+  width: 70%;
+}
+
+/* line 103, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+.background-img {
+  background: url("https://images.unsplash.com/uploads/141172692104151d94dd4/4f900e54?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=befb5c3fe660e93f9a21c9fffc3cbd49");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+/* line 109, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+footer {
+  background-color: #a3a3c2;
+}
+/* line 110, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+footer p {
+  text-align: right;
+  padding-right: 2%;
+  font-size: 1.4em;
+}
+/* line 115, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+footer .bottom-line {
+  padding-bottom: 2%;
+}
+/* line 118, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+footer .first-line {
+  padding-top: 2%;
+}
+
+/* line 124, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+p a:hover {
+  text-decoration: none;
+  color: pink;
+}
+/* line 128, /Users/seyoungkwak/Documents/ladyproblem/app/assets/stylesheets/report.scss */
+p a:visited {
+  text-decoration: none;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
