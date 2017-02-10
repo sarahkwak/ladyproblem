@@ -41,45 +41,31 @@
 		<div class="row form">
 			<div class="form-content">
 				<h3>You can also submit your issue here</h3>
-				<form class="form-horizontal">
-				  <div class="form-group">
-				    <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
-				    <div class="col-sm-10">
-				      <input type="text" class="form-control" id="inputEmail3" placeholder="Name (You don't have to say if you don't feel like">
-				    </div>
-				  </div>
-				  <div class="form-group">
-				    <label for="inputEmail3" class="col-sm-2 control-label">Age</label>
-				    <div class="col-sm-10">
-				      <input type="text" class="form-control" id="inputEmail3" placeholder="Age. (You don't have to say it you don't feel like">
-				    </div>
-				  </div>
-				  <div class="form-group">
-				    <label for="inputPassword3" class="col-sm-2 control-label">City</label>
-				    <div class="col-sm-10">
-				      <input type="text" class="form-control" id="inputPassword3" placeholder="City">
-				    </div>
-				  </div>
-				  <div class="form-group">
-				    <label for="inputPassword3" class="col-sm-2 control-label">Location of issue</label>
-				    <div class="col-sm-10">
-				      <input type="text" class="form-control" id="inputPassword3" placeholder="Work related? What industry?">
-				    </div>
-				  </div>
-				  <div class="form-group">
-				    <label for="inputPassword3" class="col-sm-2 control-label">What happened?</label>
-				    <div class="col-sm-10">
-				      <textarea class="form-control" rows="3"></textarea>
-				    </div>
-				  </div>
-				  <div class="form-group">
-				    <div class="col-sm-offset-2 col-sm-10">
-				      <button type="submit" class="btn btn-primary" id='main-submit'>Submit issue</button>
-				    </div>
-				    <div id='submit-message'></div>
-				  </div>
-				</form>
+				<p>None of the fields are mandatory. Skip any field if you aren't comfortable sharing.</p>
+				<%= form_for Report.new, remote: true, id: 'new_report' do |f| %>
+					<p>
+						Which city are you in?
+						<%= f.text_field :location %>
+					</p>
+					<p>
+						What industry are you in?
+						<%= f.text_field :industry %>
+					</p>
+					<p>
+					 Tell us what happend:
+					<%= f.text_field :contents %>
+					</p>
+					<p>
+						Would you be able to tell us which company is it? 
+					<%= f.text_field :company_name %>
+					</p>
+					<% if current_user %>
+						<% f.hidden_field :user_id_id, value: current_user.id %>
+					<% end %>
+					<%= f.submit "Submit" %>
+				<% end %>
 			</div>
+			<p id='confirm_submit'>Thank you submitting the report!</p>
 		</div>
 		<div class="row users">
 			<div class="users-content">

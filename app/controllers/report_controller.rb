@@ -8,12 +8,19 @@ class ReportController < ApplicationController
     render json: response
   end
 
-
   def create
-  	 @report = Report.new(params[:report])
+  	@report = Report.create(report_params)
+    respond_to do |format|
+      format.js
+    end 
   end
 
   def index
     @users = User.all
   end
+
+  private
+  def report_params
+    params.require(:report).permit(:location, :industry, :contents, :company_name)
+  end 
 end
